@@ -49,7 +49,7 @@ body {
     margin-bottom: 0.3rem;
 }
 
-.left span {
+.left p {
     font-size: 1.5rem;
 }
 
@@ -130,14 +130,25 @@ body {
     }
 
     .left h1 {
-        font-size: 1.8rem;
+        display: none;
     }
 
-    .left span {
+    .left p {
         font-size: 1.2rem;
+        text-align: center;
     }
 
     .buttons-secondary {
         margin-bottom: 2rem;
+    }
+
+    .btn {
+        font-size: 0.8rem;
+    }
+
+    .btn-s {
+        width: 47px;
+        height: 47px;
+        font-size: 1.3rem;
     }
  }
