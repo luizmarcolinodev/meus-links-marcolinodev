@@ -116,3 +116,27 @@ body {
     background-color: var(--azul);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.178);
 }
+
+/* =========== responsividade ========== */
+ @media (max-width: 768px) {
+    .home-container {
+        flex-direction: column;
+        margin-top: 15rem;
+    }
+
+    .right img {
+        width: 16rem;
+    }
+
+    .left h1 {
+        font-size: 1.8rem;
+    }
+
+    .left span {
+        font-size: 1.2rem;
+    }
+
+    .buttons-secondary {
+        margin-bottom: 2rem;
+    }
+ }
