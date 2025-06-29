@@ -121,6 +121,7 @@ body {
  @media (max-width: 768px) {
     .home-container {
         flex-direction: column;
+        margin-top: -3.5rem;
     }
 
     .right img {
