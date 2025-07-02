@@ -6,7 +6,8 @@ Este é um projeto simples e direto de uma **página de links** estilo bio, feit
 
 ![Imagem da página](src/images/preview.png)
 
-[Clique para acessar a página](https://marcolino-developer-links.netlify.app) 
+[Clique para acessar a página](https://marcolino-developer-links.netlify.app)<br>
+[Clique para acessar o antes (wireframe) e depois (design pronto)](https://imgur.com/a/Uuf6NbL)
 
 ---
 
