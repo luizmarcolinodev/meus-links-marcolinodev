@@ -12,6 +12,8 @@
 --azul-claro: #213977;
 --branco: #D8D9DF; 
 --hover: rgb(51, 100, 227, 58%);
+--background-card: rgb(33, 57, 119, 0.5);
+--sombra: rgba(31, 32, 34, 0.39);
 
 --margin-32: 32px;
 --margin-16: 16px;
@@ -44,4 +46,78 @@ main {
 .bloco-1 .bloco-one-texts h1 {
     font-size: 2rem;
     margin-bottom: var(--margin-16);
+}
+
+.bloco-2 .bloco-two-texto {
+    font-size: 1.3rem;
+    margin-bottom: var(--margin-16);
+    text-align: center;
+}
+
+.bloco-2 .bloco-two-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "card-0 card-0 card-3 card-3"
+    "card-1 card-2 card-3 card-3";
+    gap: 10px;
+    height: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: var(--margin-32);
+}
+
+.bloco-2 .bloco-two-grid > div {
+    background-color: var(--background-card);
+    border: 2px solid var(--azul-claro);
+    padding: 20px;
+    border-radius: 0.98rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bloco-2 .bloco-two-grid > div:hover {
+    background-color: var(--hover);
+    box-shadow: 0 2px 2px var(--sombra);
+    transition: 0.5s;
+}
+
+#card-0 {
+    grid-area: card-0;
+}
+
+#card-1 {
+    grid-area: card-1;
+}
+
+#card-2 {
+    grid-area: card-2;
+}
+
+#card-3 {
+    grid-area: card-3;
+}
+
+.bloco-2 .bloco-two-grid > div i {
+    font-size: 2.5rem;
+    margin-bottom: var(--margin-8);
+}
+
+.bloco-2 .bloco-two-grid > div p {
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer i {
+    color: var(--azul-claro);
+    margin-right: var(--margin-8);
 }
