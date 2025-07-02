@@ -22,3 +22,26 @@ body {
     background-color: var(--azul-escuro);
     color: var(--branco);
 }
+
+a {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18rem;
+}
+
+.bloco-1 .bloco-one-image img{
+    width: 15rem;
+    margin-bottom: var(--margin-16);
+}
+
+.bloco-1 .bloco-one-texts h1 {
+    font-size: 2rem;
+    margin-bottom: var(--margin-16);
+}
