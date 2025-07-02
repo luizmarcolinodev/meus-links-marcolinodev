@@ -4,11 +4,13 @@ Este é um projeto simples e direto de uma **página de links** estilo bio, feit
 
 ## Preview
 
-🔗 [Acesse aqui a página](https://marcolino-developer-links.netlify.app) 
+![Imagem da página](src/images/preview.png)
+
+[Clique para acessar a página](https://marcolino-developer-links.netlify.app) 
 
 ---
 
-## 📁 Estrutura do projeto
+## Estrutura do projeto 📁
 
 ```
 /
@@ -29,26 +31,26 @@ Este é um projeto simples e direto de uma **página de links** estilo bio, feit
 
 - **HTML5**
 - **CSS3**
-- **Google Fonts** (`Poppins`)
-- **Font Awesome** (ícones de redes sociais)
-- **Figma** (design feito nessa ferramenta)
+- **Figma**
+- **Google Fonts**
+- **Font Awesome** 
 
 ---
 
-## 🎨 Paleta de cores (CSS variables)
+## Paleta de cores (CSS variables)
 
-| Nome             | Valor                    | Descrição                     |
-|------------------|--------------------------|-------------------------------|
-| `--azul-escuro`  | `#0E1225`                | Fundo principal               |
-| `--azul-claro`   | `#213977`                | Detalhes e bordas             |
-| `--branco`       | `#D8D9DF`                | Texto e ícones principais     |
-| `--hover`        | `rgba(51, 100, 227, 0.58)` | Hover dos cards              |
-| `--background-card` | `rgba(33, 57, 119, 0.5)` | Fundo dos cards               |
-| `--sombra`       | `rgba(31, 32, 34, 0.39)` | Sombra no hover               |
+| Nome             | Valor                    |
+|------------------|--------------------------|
+| `--azul-escuro`  | `#0E1225`                | 
+| `--azul-claro`   | `#213977`                |
+| `--branco`       | `#D8D9DF`                | 
+| `--hover`        | `rgba(51, 100, 227, 0.58)` | 
+| `--background-card` | `rgba(33, 57, 119, 0.5)` | 
+| `--sombra`       | `rgba(31, 32, 34, 0.39)` |
 
 ---
 
-## 🧩 Componentes principais
+## Componentes principais
 
 ### 🔹 Bloco 1 - Perfil
 Contém:
@@ -62,8 +64,6 @@ Layout em **grid** contendo:
 - GitHub
 - Instagram
 - LinkedIn
-
-Cada link é representado por um ícone, com hover animado, texto descritivo e estilização responsiva.
 
 ---
 
@@ -82,7 +82,7 @@ O layout se adapta a diferentes tamanhos de tela com **media queries**:
 
 ---
 
-## 🛠️ Como rodar o projeto no seu computador
+## Como rodar o projeto no seu computador
 
 1. Clone o repositório:
    ```bash
@@ -92,15 +92,6 @@ O layout se adapta a diferentes tamanhos de tela com **media queries**:
 2. Abra o arquivo `index.html` com um navegador.
 
 > **Dica**: você pode usar o Live Server do VS Code para ver as alterações em tempo real.
-
----
-
-## 👨‍💻 Sobre o desenvolvedor deste projeto
-
-**Luiz Marcolino**  
-Desenvolvedor Front-End e UI/UX Design  
-[@marcolino.dev no Instagram](https://instagram.com/marcolino.dev)  
-[Portfólio em breve](#)
 
 ---
 
