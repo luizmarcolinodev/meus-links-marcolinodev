@@ -17,3 +17,8 @@
 --margin-16: 16px;
 --margin-8: 8px;
 }
+
+body {
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+}
