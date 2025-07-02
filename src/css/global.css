@@ -121,3 +121,66 @@ main {
     color: var(--azul-claro);
     margin-right: var(--margin-8);
 }
+
+/* ========= responsive =========== */
+
+@media (max-width: 599px) {
+    main {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .bloco-2 .bloco-two-grid {
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "card-0 card-0"
+            "card-1 card-2"
+            "card-3 card-3"
+            "card-3 card-3";
+        max-width: 500px;
+    }
+
+    .bloco-1 .bloco-one-texts h1 {
+        text-align: center;
+    }
+
+    .bloco-1 .bloco-one-text p {
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    .bloco-2 .bloco-two-texto {
+        font-size: 1rem;
+    }
+
+    .footer {
+        margin-bottom: var(--margin-32);
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    main {
+        gap: 10rem;
+        flex-direction: column;
+    }
+
+    .footer {
+        margin-bottom: var(--margin-32);
+        font-size: 0.9rem;
+    }
+
+    .bloco-1 .bloco-one-texts h1 {
+        text-align: center;
+    }
+
+    .bloco-1 .bloco-one-text p {
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    .bloco-2 .bloco-two-texto {
+        font-size: 1rem;
+    }
+}
