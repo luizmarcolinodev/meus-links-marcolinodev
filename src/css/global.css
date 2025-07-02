@@ -1,1 +1,19 @@
 @import url(./animacoes.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+--azul-escuro: #0E1225;
+--azul-claro: #213977;
+--branco: #D8D9DF; 
+--hover: rgb(51, 100, 227, 58%);
+
+--margin-32: 32px;
+--margin-16: 16px;
+--margin-8: 8px;
+}
